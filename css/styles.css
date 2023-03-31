@@ -239,16 +239,18 @@ body {
   }
 }
 
-/*@-webkit-keyframes blink {
+@-webkit-keyframes blink {
   2%, 20% {
     background-color: rgba(80, 255, 0, 0.85);
     box-shadow: 0 0 1vmin rgba(80, 255, 0, 0.6);
   }
+
   90% {
     background-color: transparent;
   }
 }
-@keyframes blink {
+
+/*@keyframes blink {
   2%, 20% {
     background-color: rgba(80, 255, 0, 0.85);
     box-shadow: 0 0 1vmin rgba(80, 255, 0, 0.6);
