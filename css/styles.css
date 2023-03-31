@@ -227,13 +227,13 @@ body {
   animation-delay: 1.75s;
 }
 
-/*@-webkit-keyframes spin {
+@-webkit-keyframes spin {
   to {
     transform: rotate(1turn);
   }
 }
 
-@keyframes spin {
+/*@keyframes spin {
   to {
     transform: rotate(1turn);
   }
