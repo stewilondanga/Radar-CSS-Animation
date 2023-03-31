@@ -220,14 +220,14 @@ body {
   animation-delay: 1.25s;
 }
 
-/*.radar__dot:last-of-type {
+.radar__dot:last-of-type {
   top: 36%;
   left: 36%;
   -webkit-animation-delay: 1.75s;
-          animation-delay: 1.75s;
+  animation-delay: 1.75s;
 }
 
-@-webkit-keyframes spin {
+/*@-webkit-keyframes spin {
   to {
     transform: rotate(1turn);
   }
