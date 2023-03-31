@@ -165,7 +165,7 @@ a {
   line-height: 100%;
 }
 
-/*body {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,7 +173,7 @@ a {
   background-image: linear-gradient(#252525, #0c0c0c);
 }
 
-.radar {
+/*.radar {
   position: relative;
   width: 60vmin;
   height: 60vmin;
