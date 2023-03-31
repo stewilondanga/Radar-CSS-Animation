@@ -206,13 +206,14 @@ body {
   animation: blink 2s ease-out infinite;
 }
 
-/*.radar__dot:first-of-type {
+.radar__dot:first-of-type {
   top: 24%;
   left: 76%;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
-.radar__dot:nth-of-type(2) {
+
+/*.radar__dot:nth-of-type(2) {
   top: 80%;
   left: 20%;
   -webkit-animation-delay: 1.25s;
