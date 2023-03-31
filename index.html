@@ -72,25 +72,11 @@
     </div>
   </div>
 
-  <h1>Drawing a line between 2 points using CSS</h1>
-  <div class="tri">
-    <div class="line a"></div>
-    <div class="line b"></div>
-    <div class="line c"></div>
-    <div class="opt"></div>
-    <div class="pt1"></div>
-    <div class="pt2"></div>
-    <div class="note">
-      <p>A nearly pure css line joining 2 points defined by Pt1($ox, $oy) and Pt2($ex, $ey)</p>
-      <p>Since sqrt is not supported yet, the length of the line is determined using sass:math, while the slope is completely computed using pure vanilla CSS.</p>
-      <p><b>calculating</b> length = sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2))</p>
-      <p><b>calculating</b> angle = atan2(y2 - y1, x2 - x1)</p>
-      <p>When using <b>Javascript</b>, you would have to use the equation <i>angle = atan2(y2 - y1, x2 - x1) * 180 / &#8508;</i> as atan2 in JS is calculated into radians where as in css it is in degrees.</p>
-      <p>Change $ox, $oy, $ex, and $ey to change the dimensions of the above triangle.</p>
-
-    </div>
+  <div class="radar">
+    <div class="radar__dot"></div>
+    <div class="radar__dot"></div>
+    <div class="radar__dot"></div>
   </div>
-
 
   <section id="contact">
     <div class="overlay">
