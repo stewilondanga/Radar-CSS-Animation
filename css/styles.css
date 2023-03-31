@@ -213,13 +213,14 @@ body {
   animation-delay: 0.25s;
 }
 
-/*.radar__dot:nth-of-type(2) {
+.radar__dot:nth-of-type(2) {
   top: 80%;
   left: 20%;
   -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
-.radar__dot:last-of-type {
+
+/*.radar__dot:last-of-type {
   top: 36%;
   left: 36%;
   -webkit-animation-delay: 1.75s;
